@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя работа к занятию 2 (Модуль 2)</title>
+</head>
+<script>
+    var key = true;
+    while (key) {
+        var season = prompt("Введите время года:", "Например: Лето");
+        switch (season.toLowerCase()) {
+            case 'зима':
+                alert("Ваша страна: Антарктида");
+                break;
+            case 'весна':
+                alert("Ваша страна: Испания");
+                break;
+            case 'лето':
+                alert("Ваша страна: Мальдивы");
+                break;
+            case 'осень':
+                alert("Ваша страна: Ирландия");
+                break;
+            case '':
+                key = false;
+                break;
+            default:
+                alert("Вы ввели не время года!");
+                break;
+        }
+    }
+</script>
+
+<body>
+</body>
+
+</html>
